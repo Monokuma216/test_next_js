@@ -1,0 +1,25 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "indent": [
+      2,
+      "tab"
+    ],
+    "no-tabs": 0,
+    "no-mixed-spaces-and-tabs": 0,
+    "no-use-before-define": "off",
+    "@next/next/no-img-element": "off",
+    "semi": [
+      "error",
+      "always"
+    ],
+    "jsx-quotes": [
+      "error",
+      "prefer-single"
+    ],
+    "eol-last": [
+      "error",
+      "always"
+    ]
+  }
+}
