@@ -1,24 +1,30 @@
-.header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50px;
-  background: gray;
-  display: flex;
+.heading {
+  height: 110px;
   align-items: center;
-  padding: 0 20px;
 }
-.headerLogo {
-  width: 170px;
-  height: 50px;
-  object-fit: cover;
+.heading__navbar {
+  display: flex;
+  justify-content: center;
+  gap: 43px;
+  height: max-content;
 }
-.headerElement {
-  width: 300px;
-  margin-left: 50px;
-  font-size: 32px;
-  color: #ff00fa;
+@media (max-width: 1700px) {
+  .heading__navbar {
+    gap: 20px;
+  }
+}
+.heading__navbar a {
+  color: #0C0E1A;
+  text-decoration: none;
+}
+.heading__logo {
+  justify-content: center;
+  text-align: center;
+  color: #6F66D7;
+}
+.heading__logo .right {
+  text-align: center;
+  color: #0C0E1A;
 }
 
 /*# sourceMappingURL=header-styles.module.css.map */

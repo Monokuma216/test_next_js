@@ -1,0 +1,73 @@
+.landing
+  height: 100vh
+
+  .content
+    padding: 0 168px
+    height: calc( 100vh - 139px )
+
+    @media (max-width: 1700px)
+      padding: 0 5%
+
+
+    justify-content: center
+
+    .polygon
+      position: relative
+
+
+    img
+      height: 70%
+
+  .rollArrow
+    position: absolute
+    right: 7%
+    top: 50%
+
+  .blueStar
+    position: absolute
+    left: 19%
+    bottom: 17%
+
+  .purpleStar
+    position: absolute
+    right: 19%
+    bottom: 15%
+
+
+  .circle
+    border-radius: 50%
+    position: absolute
+
+
+    &__orange
+      @extend .circle
+      z-index: -1
+      width: 54px
+      height: 57.76px
+      left: -3%
+      top: 10%
+      background: rgba(237, 123, 9, 0.5)
+
+    &__smallOrange_1
+        @extend .circle
+        width: 16px
+        height: 16px
+        left: 13%
+        top: 28%
+        background: #EF9E4F
+
+    &__smallPurple_1
+        @extend .circle
+        width: 9px
+        height: 9px
+        left: 15%
+        bottom: 28%
+        background: #6F66D7
+
+    &__smallPurple_2
+      @extend .circle
+      width: 20px
+      height: 20px
+      right: 11%
+      top: 38%
+      background: #6F66D7

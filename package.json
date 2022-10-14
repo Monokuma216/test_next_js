@@ -8,9 +8,16 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "npm run lint -- --fix",
-    "release": "standard-version"
+    "release": "standard-version",
+    "sass": "sass --update ./src --no-source-map"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.9",
+    "@react-buddy/ide-toolbox": "^2.2.1",
+    "@react-buddy/palette-mui": "^1.2.2",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
