@@ -12,8 +12,6 @@ const Header = () => {
 		router.push(href);
 	};
 
-	console.log(router.pathname);
-
 	function onButtonClick(_) {
 		window.location.href = 'https://vk.com/myleadsru';
 	}

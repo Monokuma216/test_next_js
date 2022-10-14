@@ -1,0 +1,69 @@
+.landing {
+  height: 100vh;
+}
+.landing .content {
+  padding: 0 168px;
+  height: calc(100vh - 139px);
+  justify-content: center;
+}
+@media (max-width: 1700px) {
+  .landing .content {
+    padding: 0 5%;
+  }
+}
+.landing .content .polygon {
+  position: relative;
+}
+.landing .content img {
+  height: 70%;
+}
+.landing .rollArrow {
+  position: absolute;
+  right: 7%;
+  top: 50%;
+}
+.landing .blueStar {
+  position: absolute;
+  left: 19%;
+  bottom: 17%;
+}
+.landing .purpleStar {
+  position: absolute;
+  right: 19%;
+  bottom: 15%;
+}
+.landing .circle, .landing .circle__smallPurple_2, .landing .circle__smallPurple_1, .landing .circle__smallOrange_1, .landing .circle__orange {
+  border-radius: 50%;
+  position: absolute;
+}
+.landing .circle__orange {
+  z-index: -1;
+  width: 54px;
+  height: 57.76px;
+  left: -3%;
+  top: 10%;
+  background: rgba(237, 123, 9, 0.5);
+}
+.landing .circle__smallOrange_1 {
+  width: 16px;
+  height: 16px;
+  left: 13%;
+  top: 28%;
+  background: #EF9E4F;
+}
+.landing .circle__smallPurple_1 {
+  width: 9px;
+  height: 9px;
+  left: 15%;
+  bottom: 28%;
+  background: #6F66D7;
+}
+.landing .circle__smallPurple_2 {
+  width: 20px;
+  height: 20px;
+  right: 11%;
+  top: 38%;
+  background: #6F66D7;
+}
+
+/*# sourceMappingURL=style.module.css.map */
